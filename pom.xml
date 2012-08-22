@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lukaszkaniowski.android_utils</groupId>
@@ -8,6 +9,7 @@
     <version>0.2-SNAPSHOT</version>
     <modules>
         <module>web_view</module>
+        <module>ads</module>
     </modules>
 
     <url>https://github.com/lukasz-kaniowski/android_utils</url>
@@ -52,6 +54,13 @@
             <url>https://github.com/lukasz-kaniowski/maven-repository/raw/master</url>
         </repository>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>Lukasz Kaniowski on Github</id>
+            <url>https://github.com/lukasz-kaniowski/maven-repository/raw/master</url>
+        </repository>
+    </repositories>
 
 
 </project>

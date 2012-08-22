@@ -45,8 +45,8 @@
 
     <scm>
         <url>https://github.com/lukasz-kaniowski/android_utils</url>
-        <connection>scm:git:git://github.com/lukasz-kaniowski/android_utils.git</connection>
-        <developerConnection>scm:git:git@github.com/lukasz-kaniowski/android_utils.git</developerConnection>
+        <connection>scm:git:https://github.com/lukasz-kaniowski/android_utils</connection>
+        <developerConnection>scm:git:https://github.com/lukasz-kaniowski/android_utils</developerConnection>
     </scm>
     <distributionManagement>
         <repository>

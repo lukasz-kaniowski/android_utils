@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lukaszkaniowski.android_utils</groupId>
-    <artifactId>base</artifactId>
+    <artifactId>all</artifactId>
     <packaging>pom</packaging>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
     <modules>
         <module>web_view</module>
     </modules>
@@ -48,6 +48,12 @@
         <connection>scm:git:git://github.com/lukasz-kaniowski/android_utils.git</connection>
         <developerConnection>scm:git:git@github.com/lukasz-kaniowski/android_utils.git</developerConnection>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>github-repo</id>
+            <url>https://github.com/lukasz-kaniowski/maven-repository/raw/master</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>

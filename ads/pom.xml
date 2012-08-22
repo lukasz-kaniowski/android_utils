@@ -4,7 +4,7 @@
     <parent>
         <artifactId>all</artifactId>
         <groupId>com.lukaszkaniowski.android_utils</groupId>
-        <version>0.3-SNAPSHOT</version>
+        <version>0.2</version>
     </parent>
     <groupId>com.lukaszkaniowski.android_utils</groupId>
     <artifactId>ads</artifactId>

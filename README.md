@@ -17,7 +17,10 @@ Simple copy jar from this [maven-repo][1] into your project dependencies.
 ## Modules
 ### Ads
 Utils for displaying ads in your application. 
-It supports [admob mediation][2] with [tapfortap][3] provider.
+It supports [admob mediation][2] with [TapForTap][3] provider.
+
+* `AdsUtils.showAds` => display ads 
+* `AdsUtils.initTapForTap` => initialize TapForTap  
 
 #### Instalation
         <dependency>

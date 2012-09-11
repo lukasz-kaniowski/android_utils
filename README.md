@@ -33,7 +33,7 @@ Methods:
         <dependency>
             <groupId>com.lukaszkaniowski.android_utils</groupId>
             <artifactId>ads</artifactId>
-            <version>0.2</version>
+            <version>0.3</version>
         </dependency>
 
 

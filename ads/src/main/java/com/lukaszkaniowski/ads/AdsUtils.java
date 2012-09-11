@@ -1,7 +1,9 @@
 package com.lukaszkaniowski.ads;
 
 import android.app.Activity;
+import android.content.Context;
 import android.view.ViewGroup;
+import com.appbrain.AppBrain;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
 import com.google.ads.AdView;
@@ -37,5 +39,13 @@ public class AdsUtils {
 
     public static void initTapForTap(String tapForTapId) {
         TapForTap.setDefaultAppId(tapForTapId);
+    }
+
+    public static void initAppLift(Context context) {
+        AppBrain.init(context);
+    }
+
+    public static void showInterstitial(Activity activity) {
+        AppBrain.getAds().maybeShowInterstitial(activity);
     }
 }

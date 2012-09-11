@@ -17,16 +17,23 @@ Simple copy jar from this [maven-repo][1] into your project dependencies.
 ## Modules
 ### Ads
 Utils for displaying ads in your application. 
-It supports [admob mediation][2] with [TapForTap][3] provider.
+It supports [admob mediation][2] with providers:
+
+* [TapForTap][3]
+* [AppBrain AppLift][4]
+
+Methods:
 
 * `AdsUtils.showAds` => display ads 
-* `AdsUtils.initTapForTap` => initialize TapForTap  
+* `AdsUtils.initTapForTap` => initialize TapForTap
+* `AdsUtils.initAppLift` => initialize AppBrain
+* `AdsUtils.showInterstitial` => shows full page ads
 
 #### Instalation
         <dependency>
             <groupId>com.lukaszkaniowski.android_utils</groupId>
             <artifactId>ads</artifactId>
-            <version>0.1</version>
+            <version>0.2</version>
         </dependency>
 
 
@@ -42,9 +49,20 @@ Utils for working with webviews.
             <version>0.1</version>
         </dependency>
 
+## Release
+
+    mvn release:prepare
+    mvn release:perform -Pdeploy-github
+
+    cd /path/to/local/github/repo
+    git add .
+    git commit -m "new jar release"
+    git push origin master
+
 
         
         
 [1]: https://github.com/lukasz-kaniowski/maven-repository/tree/master/com/lukaszkaniowski/android_utils
 [2]: https://support.google.com/admob/bin/answer.py?hl=en&answer=2413211
 [3]: http://r.tapfortap.com/8zyN9
+[4]: https://developers.appbrain.com/info/sdk

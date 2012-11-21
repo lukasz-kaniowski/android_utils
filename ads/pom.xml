@@ -20,12 +20,7 @@
         <dependency>
             <groupId>com.tapfortap</groupId>
             <artifactId>tap-admob</artifactId>
-            <version>1.1.11</version>
-        </dependency>
-        <dependency>
-            <groupId>com.tapfortap</groupId>
-            <artifactId>tap-sdk</artifactId>
-            <version>1.1.11</version>
+            <version>2.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.appbrain</groupId>

@@ -37,8 +37,8 @@ public class AdsUtils {
         return adView;
     }
 
-    public static void initTapForTap(String tapForTapId) {
-        TapForTap.setDefaultAppId(tapForTapId);
+    public static void initTapForTap(String tapForTapSdkKey,Activity activity) {
+        TapForTap.initialize(activity,tapForTapSdkKey);
     }
 
     public static void initAppLift(Context context) {

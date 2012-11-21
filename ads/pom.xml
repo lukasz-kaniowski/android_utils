@@ -4,12 +4,12 @@
     <parent>
         <artifactId>all</artifactId>
         <groupId>com.lukaszkaniowski.android_utils</groupId>
-        <version>0.4-SNAPSHOT</version>
+        <version>0.3</version>
     </parent>
     <groupId>com.lukaszkaniowski.android_utils</groupId>
     <artifactId>ads</artifactId>
 
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
 
     <dependencies>
         <dependency>
